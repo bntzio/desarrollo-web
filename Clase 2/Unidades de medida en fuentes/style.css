@@ -1,0 +1,59 @@
+html {
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 1.5rem; /* ROOT EM */
+}
+
+h1 a {
+	font-size: .8em;
+}
+
+span {
+	font-size: 1rem;
+}
+
+.square {
+	width: 1em;
+	height: 1em;
+	background-color: peru;
+	font-size: 50px;
+}
+
+	.square::after { 
+		content: "";
+		width: .5em;
+		height: .5em;
+		background-color: red;
+		position: absolute;
+		top: .25em;
+		left: .25em;
+	}
+
+.container {
+	width: 80%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:  peru;
+	height: 50vw;
+	width: 100vw; /* VW = Viewport Width */
+}
+
+	li {
+		background-color: olive;
+		height: 20vh;
+		border-bottom: maroon 1px solid;
+	}
+
+
+
+
+
+
+
+
