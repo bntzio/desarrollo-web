@@ -37,6 +37,7 @@ h2, .h2 {
 		background-color: blue;
 	}
 
+/* Selectores de Atributos */
 li[data-RobotOwner="Koji Kabuto"] {
 	background-color: olive;
 	color: white;
