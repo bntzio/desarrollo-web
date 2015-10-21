@@ -27,6 +27,13 @@ body {
 		list-style-type: none;
 	}
 
+	.temperature::after {
+		content: attr(data-unidad);
+		font-size: 12px;
+		font-family: courier;
+		color: red;
+	}
+
 /* Helper */
 .centrar {
 	width: 400px;
